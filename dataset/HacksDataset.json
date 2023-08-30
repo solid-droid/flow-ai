@@ -1,0 +1,62 @@
+[
+  {
+    "cmd": "CREATE - PIVOT",
+    "inp": [
+      "Add pivot",
+      "Create Pivot",
+      "Build pivot",
+      "Make a pivot",
+      "Build Grid",
+      "Create Grid"
+    ]
+  },
+  {
+    "cmd": "DIMENSIONS - 'testData' , 'week'",
+    "inp": [
+      "Add attributes 'testData' and 'week' ",
+      "Add dimensions 'testData' and 'week' "
+    ]
+  },
+  {
+    "cmd": "MEASURES - 'testData' , 'week'",
+    "inp": [
+      "Add measures 'testData' and 'week' ",
+      "'testData' and 'week' are the measures i want",
+      "create measures 'testData' and 'week'",
+      "add measure 'testData' and measure 'week'",
+      "Measures - 'testData' , 'week' ",
+      "Add measures 'testData' and 'week'"
+    ]
+  },
+  {
+    "cmd": "MEASURES - 'testData' , 'week', 'mayday'",
+    "inp": [
+      "Add measures 'testData', 'week' and 'mayday' ",
+      "'testData', 'week' and 'mayday' are the measures i want",
+      "create measures 'testData' and 'week' and 'mayday'",
+      "add measure 'testData' and measure 'week' and measure 'mayday'",
+      "Measures - 'testData' , 'week' , 'mayday' ",
+      "Add measures 'testData' and 'week' and 'mayday' "
+    ]
+  },
+    {
+    "cmd": "FILTER - 'testData' > 10 , 'mayday' == 'monday'",
+    "inp": [
+      "show values where 'testData' > 10 and 'mayday' == 'monday'",
+      "show values where 'testData' > 10 and 'mayday' equals 'monday'"
+    ]
+  },
+  {
+    "cmd": "CREATE - PIVOT || DIMENSIONS - 'market' , 'week' || MEASURES - 'testData' , 'register Value'",
+    "inp": [
+      "Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week' ",
+      "Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value' "
+    ]
+  },
+  {
+    "cmd": "CREATE - PIVOT || MEASURES - 'testData' , 'week'",
+    "inp": [
+      "Create a pivot and add measures 'testData' and 'week' "
+    ]
+  }
+]
