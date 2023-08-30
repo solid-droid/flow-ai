@@ -1,5 +1,6 @@
 # flow-ai
- seq2seq transformer - o9Hacks
+ seq2seq transformer - o9Hacks  
+   
 Setup
 - go to https://pytorch.org/get-started/locally/
 - install mentioned version of cuda (11.8)
@@ -10,3 +11,6 @@ Setup
 - run train.py => for training (if u want to pause and resume the training, or loading a pretrained model => make sure to update config.py)
 - run pytorchGPUTest.py => to test CUDA/gpu is detected
 - run predict.py => for prediction (need a trained model for this to work)
+
+Dataset   
+https://jsoneditoronline.org/#left=cloud.18e44cbbed4e4a6c919ec80711694750
