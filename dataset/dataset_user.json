@@ -1,0 +1,13 @@
+[
+    {
+        "cmd" : "CREATE PIVOT",
+        "inp" : [
+            "Add pivot",
+            "Create Pivot",
+            "Build pivot",
+            "Make a pivot",
+            "Build Grid",
+            "Create Grid"
+        ]
+    }
+]
