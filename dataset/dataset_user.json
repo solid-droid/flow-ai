@@ -4,6 +4,7 @@
       "inp": [
         "Add pivot",
         "Create Pivot",
+        "Create a Grid",
         "Build pivot",
         "Make a pivot",
         "Build Grid",
@@ -22,7 +23,8 @@
         "Add attributes 'testData' and 'week' ",
         "Add dimensions 'testData' and 'week' ",
         "use dimensions 'testData' and 'week'",
-        "add 'testData' and 'week' as dimensions"
+        "add 'testData' and 'week' as dimensions",
+        "add members 'testData' and 'week'"
       ]
     },
     {
@@ -34,7 +36,8 @@
         "add measure 'testData' and measure 'week'",
         "Measures - 'testData' , 'week' ",
         "Add measures 'testData' and 'week'",
-        "add 'testData' and 'week' as measures"
+        "add 'testData' and 'week' as measures",
+        "use measures 'testData' and 'week'"
       ]
     },
     {
@@ -45,7 +48,8 @@
         "create measures 'testData' and 'week' and 'mayday'",
         "add measure 'testData' and measure 'week' and measure 'mayday'",
         "Measures - 'testData' , 'week' , 'mayday' ",
-        "Add measures 'testData' and 'week' and 'mayday' "
+        "Add measures 'testData' and 'week' and 'mayday' ",
+        "use measures 'testData' and 'week' and 'mayday'"
       ]
     },
       {
@@ -59,7 +63,8 @@
       "cmd": "CREATE - PIVOT || DIMENSIONS - 'market' , 'week' || MEASURES - 'testData' , 'register Value'",
       "inp": [
         "Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week' ",
-        "Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value' "
+        "Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value' ",
+        "Create a pivot and add attributes 'market' and 'week' and add measures 'testData' and 'register Value' "
       ]
     },
     {
