@@ -28,42 +28,6 @@
       ]
     },
     {
-      "cmd": "DIMENSIONS - 'Region' , 'City'",
-      "inp": [
-        "Add attributes 'Region' and 'City' ",
-        "Add dimensions 'Region' and 'City' ",
-        "use dimensions 'Region' and 'City'",
-        "add 'Region' and 'City' as dimensions"
-      ]
-    },
-    {
-      "cmd": "DIMENSIONS - 'Product' , 'Brand'",
-      "inp": [
-        "Add attributes 'Product' and 'Brand' ",
-        "Add dimensions 'Product' and 'Brand' ",
-        "use dimensions 'Product' and 'Brand'",
-        "add 'Product' and 'Brand' as dimensions"
-      ]
-    },
-    {
-      "cmd": "DIMENSIONS - 'Country' , 'State'",
-      "inp": [
-        "Add attributes 'Country' and 'State' ",
-        "Add dimensions 'Country' and 'State' ",
-        "use dimensions 'Country' and 'State'",
-        "add 'Country' and 'State' as dimensions"
-      ]
-    },
-    {
-      "cmd": "DIMENSIONS - 'Language' , 'Dialect'",
-      "inp": [
-        "Add attributes 'Language' and 'Dialect' ",
-        "Add dimensions 'Language' and 'Dialect' ",
-        "use dimensions 'Language' and 'Dialect'",
-        "add 'Language' and 'Dialect' as dimensions"
-      ]
-    },
-    {
       "cmd": "MEASURES - 'testData' , 'week'",
       "inp": [
         "Add measures 'testData' and 'week' ",
@@ -77,58 +41,6 @@
       ]
     },
     {
-      "cmd": "MEASURES - 'Backorder Rate' , 'Cycle Time'",
-      "inp": [
-        "Add measures 'Backorder Rate' and 'Cycle Time' ",
-        "'Backorder Rate' and 'Cycle Time' are the measures I want",
-        "create measures 'Backorder Rate' and 'Cycle Time'",
-        "add measure 'Backorder Rate' and measure 'Cycle Time'",
-        "Measures - 'Backorder Rate' , 'Cycle Time'",
-        "Add measures 'Backorder Rate' and 'Cycle Time'",
-        "add 'Backorder Rate' and 'Cycle Time' as measures",
-        "use measures 'Backorder Rate' and 'Cycle Time'"
-      ]
-    },
-    {
-      "cmd": "MEASURES - 'Days of Supply' , 'Fill Rate'",
-      "inp": [
-        "Add measures 'Days of Supply' and 'Fill Rate' ",
-        "'Days of Supply' and 'Fill Rate' are the measures I want",
-        "create measures 'Days of Supply' and 'Fill Rate'",
-        "add measure 'Days of Supply' and measure 'Fill Rate'",
-        "Measures - 'Days of Supply' , 'Fill Rate'",
-        "Add measures 'Days of Supply' and 'Fill Rate'",
-        "add 'Days of Supply' and 'Fill Rate' as measures",
-        "use measures 'Days of Supply' and 'Fill Rate'"
-      ]
-    },
-    {
-      "cmd": "MEASURES - 'Order Quantity' , 'Delivery Time'",
-      "inp": [
-        "Add measures 'Order Quantity' and 'Delivery Time' ",
-        "'Order Quantity' and 'Delivery Time' are the measures I want",
-        "create measures 'Order Quantity' and 'Delivery Time'",
-        "add measure 'Order Quantity' and measure 'Delivery Time'",
-        "Measures - 'Order Quantity' , 'Delivery Time'",
-        "Add measures 'Order Quantity' and 'Delivery Time'",
-        "add 'Order Quantity' and 'Delivery Time' as measures",
-        "use measures 'Order Quantity' and 'Delivery Time'"
-      ]
-    },
-    {
-      "cmd": "MEASURES - 'Cash-to-Cash Cycle Time' , 'Inventory Turnover'",
-      "inp": [
-        "Add measures 'Cash-to-Cash Cycle Time' and 'Inventory Turnover' ",
-        "'Cash-to-Cash Cycle Time' and 'Inventory Turnover' are the measures I want",
-        "create measures 'Cash-to-Cash Cycle Time' and 'Inventory Turnover'",
-        "add measure 'Cash-to-Cash Cycle Time' and measure 'Inventory Turnover'",
-        "Measures - 'Cash-to-Cash Cycle Time' , 'Inventory Turnover'",
-        "Add measures 'Cash-to-Cash Cycle Time' and 'Inventory Turnover'",
-        "add 'Cash-to-Cash Cycle Time' and 'Inventory Turnover' as measures",
-        "use measures 'Cash-to-Cash Cycle Time' and 'Inventory Turnover'"
-      ]
-    },   
-    {
       "cmd": "MEASURES - 'testData' , 'week', 'mayday'",
       "inp": [
         "Add measures 'testData', 'week' and 'mayday' ",
@@ -140,54 +52,6 @@
         "use measures 'testData' and 'week' and 'mayday'"
       ]
     },
-    {
-      "cmd": "MEASURES - 'cost' , 'revenue', 'sales'",
-      "inp": [
-        "Add measures 'cost', 'revenue' and 'sales' ",
-        "'cost', 'revenue' and 'sales' are the measures i want",
-        "create measures 'cost' and 'revenue' and 'sales'",
-        "add measure 'cost' and measure 'revenue' and measure 'sales'",
-        "Measures - 'cost' , 'revenue' , 'sales' ",
-        "Add measures 'cost', 'revenue' and 'sales' ",
-        "use measures 'cost', 'revenue' and 'sales'"
-      ]
-    },
-    {
-      "cmd": "MEASURES - 'Inventory Turnover', 'On-Time Delivery', 'Cost per Order'",
-      "inp": [
-        "Add measures 'Inventory Turnover', 'On-Time Delivery', and 'Cost per Order'",
-        "'Inventory Turnover', 'On-Time Delivery', and 'Cost per Order' are the metrics I want",
-        "create measures 'Inventory Turnover', 'On-Time Delivery', and 'Cost per Order'",
-        "add measure 'Inventory Turnover', measure 'On-Time Delivery', and measure 'Cost per Order'",
-        "Measures - 'Inventory Turnover', 'On-Time Delivery', 'Cost per Order'",
-        "Add measures 'Inventory Turnover', 'On-Time Delivery', and 'Cost per Order'",
-        "use measures 'Inventory Turnover', 'On-Time Delivery', and 'Cost per Order'"
-      ]
-    },
-    {
-      "cmd": "MEASURES - 'Order Fill Rate', 'Supplier Quality Index', 'Lead Time'",
-      "inp": [
-        "Add measures 'Order Fill Rate', 'Supplier Quality Index', and 'Lead Time'",
-        "'Order Fill Rate', 'Supplier Quality Index', and 'Lead Time' are the metrics I want",
-        "create measures 'Order Fill Rate', 'Supplier Quality Index', and 'Lead Time'",
-        "add measure 'Order Fill Rate', measure 'Supplier Quality Index', and measure 'Lead Time'",
-        "Measures - 'Order Fill Rate', 'Supplier Quality Index', 'Lead Time'",
-        "Add measures 'Order Fill Rate', 'Supplier Quality Index', and 'Lead Time'",
-        "use measures 'Order Fill Rate', 'Supplier Quality Index', and 'Lead Time'"
-      ]
-    },
-    {
-      "cmd": "MEASURES - 'Cycle Time', 'Backorder Rate', 'Days of Supply'",
-      "inp": [
-        "Add measures 'Cycle Time', 'Backorder Rate', and 'Days of Supply'",
-        "'Cycle Time', 'Backorder Rate', and 'Days of Supply' are the metrics I want",
-        "create measures 'Cycle Time', 'Backorder Rate', and 'Days of Supply'",
-        "add measure 'Cycle Time', measure 'Backorder Rate', and measure 'Days of Supply'",
-        "Measures - 'Cycle Time', 'Backorder Rate', 'Days of Supply'",
-        "Add measures 'Cycle Time', 'Backorder Rate', and 'Days of Supply'",
-        "use measures 'Cycle Time', 'Backorder Rate', and 'Days of Supply'"
-      ]
-    },    
     {
       "cmd": "FILTER - 'testData' > 10 , 'mayday' == 'monday'",
       "inp": [
