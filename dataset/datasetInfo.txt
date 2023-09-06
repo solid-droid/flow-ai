@@ -1,0 +1,12 @@
+Basic Commands
+- CREATE - PIVOT
+- CREATE - CHART
+
+- DIMENSIONS - ['testData' , 'week']
+- MEASURES - ['testData' , 'week']
+- REMOVE - ['testData' , 'week']
+
+- FILTER - ['testData' > 10 , 'mayday' == 'monday']
+- CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']
+
+- CALCULATED - ['testData' + 10] --NAME -'calculatedData'
