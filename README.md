@@ -14,3 +14,9 @@ Setup
 
 Dataset   
 https://jsoneditoronline.org/#left=cloud.18e44cbbed4e4a6c919ec80711694750
+
+llamascript
+
+Setup
+- have the model running in any notebook eg Google Collab
+- create a folder context_data/data and upload the o9trainingset.txt file
