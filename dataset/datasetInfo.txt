@@ -1,12 +1,18 @@
 Basic Commands
+//create report command/////////////
+
 - CREATE - PIVOT
 - CREATE - CHART
+
+//add or remove entity command/////////////
 
 - DIMENSIONS - ['testData' , 'week']
 - MEASURES - ['testData' , 'week']
 - REMOVE - ['testData' , 'week']
+- CALCULATED - ['testData' + 10] --NAME -'calculatedData'
+
+//filtering and formatting commands/////////////
 
 - FILTER - ['testData' > 10 , 'mayday' == 'monday']
 - CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']
 
-- CALCULATED - ['testData' + 10] --NAME -'calculatedData'
