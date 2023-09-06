@@ -4,6 +4,21 @@ let raw_datset = JSON.parse(rawdata);
 let index = 0;
 const randomCount = 1;
 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 -_';
+const symbolMap = {
+    '=' : ['=','==','equals', 'equal to', 'same', 'same as' ],
+    '>' : ['>', 'greater than', 'more than', 'bigger than'],
+    '<' : ['<', 'less than', 'fewer than', 'lesser than' ,'smaller than'],
+    '!=': ['!=', '!==' , 'not equals' , 'not same as', 'not same'],
+    '>=': ['>=', '>==', 
+            'greater than or equals to' , 'greater or equals', 'greater or same as', 
+            'same or greater than', 'equals or greater than','equal to or greater than',
+            'more than or equals', 'equals or more than' ],
+    '<=': ['<=', '<==', 
+           'less than or equals to' , 'lesser or equals', 'smaller or same as', 
+           'same or smaller than', 'equals or less than','equal to or less than',
+           'fewer than or equals', 'equals or smaller than' ],
+}
+
 //clearing and initializing file writer
 fs.writeFileSync('dataset.json', '');
 let file = fs.createWriteStream('dataset.json', {flags: 'a'});
@@ -16,6 +31,7 @@ raw_datset.forEach(x => {
         if(x.cmd.includes("'")){
             createRandomData(x.cmd, y);
         }
+        
     })
 });
 

@@ -1,5 +1,5 @@
-scripts/runs/*
-scripts/weights/*
+*/runs/*
+*/weights/*
 
 
 # Byte-compiled / optimized / DLL files
