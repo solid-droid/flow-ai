@@ -22,3 +22,4 @@ print(custom_dataset)
 ds_raw2 = load_dataset('json',data_files='../dataset/dataset.json',split="train");
 print(ds_raw2)
 print(ds_raw2[0])
+print(ds_raw2['text'])

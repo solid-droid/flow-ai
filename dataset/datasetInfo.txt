@@ -1,4 +1,4 @@
-Basic Commands
+//Report Commands----------------------------------------------------------------------
 //create report command/////////////
 
 - CREATE - PIVOT
@@ -15,4 +15,10 @@ Basic Commands
 
 - FILTER - ['testData' > 10 , 'mayday' == 'monday']
 - CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']
+
+//-------------------------------------------------------------------------------------
+//Summary Commands--------------------------------------------------------------------
+
+- MEAN - 'testData'
+
 

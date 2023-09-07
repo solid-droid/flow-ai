@@ -1,0 +1,87 @@
+[
+    {
+      "cmd": "CREATE - PIVOT",
+      "inp": [
+        "Add pivot",
+        "Create Pivot",
+        "Create a Grid",
+        "make grid",
+        "make report"
+      ]
+    },
+    {
+      "cmd": "DIMENSIONS - ['testData' , 'week']",
+      "inp": [
+        "Add attributes 'testData' and 'week' ",
+        "Add dimensions 'testData' and 'week' ",
+        "use dimensions 'testData' and 'week'",
+        "add 'testData' and 'week' as dimensions",
+        "add members 'testData' and 'week'"
+      ]
+    },
+    {
+      "cmd": "MEASURES - ['testData' , 'week']",
+      "inp": [
+        "Add measures 'testData' and 'week' ",
+        "'testData' and 'week' are the measures i want",
+        "create measures 'testData' and 'week'",
+        "add measure 'testData' and measure 'week'",
+        "use measures 'testData' and 'week'"
+      ]
+    },
+    {
+      "cmd": "MEASURES - ['testData' , 'week', 'mayday']",
+      "inp": [
+        "Add measures 'testData', 'week' and 'mayday' ",
+        "'testData', 'week' and 'mayday' are the measures i want",
+        "create measures 'testData' and 'week' and 'mayday'",
+        "add measure 'testData' and measure 'week' and measure 'mayday'",
+        "use measures 'testData' and 'week' and 'mayday'"
+      ]
+    },
+    {
+      "cmd": "REMOVE - ['testData' , 'week', 'mayday']",
+      "inp": [
+        "remove measures 'testData', 'week' and 'mayday' ",
+        "Remove Measures - 'testData' , 'week' , 'mayday' ",
+        "hide measures 'testData' and 'week' and 'mayday' ",
+        "hide dimensions 'testData' and 'week' and 'mayday'",
+        "'testData' , 'week' and 'mayday' needs to be removed",
+        "remove 'testData' and 'week' and 'mayday'"
+      ]
+    },
+    {
+      "cmd": "FILTER - ['testData' > 10 , 'mayday' == 'monday']",
+      "inp": [
+        "show values where 'testData' > 10 and 'mayday' == 'monday'",
+        "show values where 'testData' > 10 and 'mayday' equals 'monday'",
+        "show values where 'testData' > 10 and 'mayday' is 'monday'"
+      ]
+    },
+    {
+      "cmd": "CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red'] ",
+      "inp": [
+        "show values 'testData' > 10 and 'mayday' == 'monday' in red color",
+        "show values where 'testData' > 10 and 'mayday' equals 'monday' in red color",
+        "show values where 'testData' > 10 and 'mayday' is 'monday' in red color"
+      ]
+    },
+    {
+      "cmd": "CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value']",
+      "inp": [
+        "Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week' ",
+        "Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value' ",
+        "Create a pivot with attributes 'market' and 'week' and measures 'testData' and 'register Value' ",
+        "Make a pivot with measures - 'testData', 'register Value' and attributes 'market', 'week'"
+      ]
+    },
+    {
+      "cmd": "CREATE - PIVOT || MEASURES - ['testData' , 'week']",
+      "inp": [
+        "Create a pivot and add measures 'testData' and 'week' ",
+        "Create a pivot with measures 'testData' and 'week' ",
+        "Please create a pivot and add measures 'testData' and 'week' ",
+        "Please create a pivot with measures 'testData' and 'week' "
+      ]
+    }
+  ]
