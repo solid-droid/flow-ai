@@ -5,16 +5,21 @@
         "Add pivot",
         "Create Pivot",
         "Create a Grid",
-        "Build pivot",
-        "Make a pivot",
-        "Build Grid",
-        "Create Grid",
-        "Creat a report",
+        "build Grid",
+        "build a report",
         "please create a report",
         "create report",
-        "make a report",
-        "make grid",
         "make report"
+      ]
+    },
+    {
+      "cmd": "CREATE - SALES REPORT",
+      "inp": [
+        "Add SALES REPORT",
+        "Create sales REPORT",
+        "Create a report on sales",
+        "Build a sales report",
+        "Make a sales report"
       ]
     },
     {
@@ -79,11 +84,19 @@
       ]
     },
     {
-      "cmd": "CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red'] ",
+      "cmd": "FILTER - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red'] ",
       "inp": [
         "show values 'testData' > 10 and 'mayday' == 'monday' in red color",
         "show values where 'testData' > 10 and 'mayday' equals 'monday' in red color",
         "show values where 'testData' > 10 and 'mayday' is 'monday' in red color"
+      ]
+    },
+    {
+      "cmd": "FILTER - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['blue'] ",
+      "inp": [
+        "show values 'testData' > 10 and 'mayday' == 'monday' in blue",
+        "show values where 'testData' > 10 and 'mayday' equals 'monday' in blue color",
+        "show values where 'testData' > 10 and 'mayday' is 'monday' in blue background"
       ]
     },
     {
@@ -106,6 +119,33 @@
         "Create a pivot with measures 'testData' and 'week' ",
         "Please create a pivot and add measures 'testData' and 'week' ",
         "Please create a pivot with measures 'testData' and 'week' "
+      ]
+    },
+    {
+      "cmd": "CREATE - SALES REPORT || DIMENSIONS - ['product family', 'region', 'quarter'] || FILTER - ['year' > current - 4]",
+      "inp": [
+        "create a sales report by product family, region, quarter for last 4 years",
+        "Build a sales report by product family by region by quarter for last 4 years",
+        "sales report for last 4 years using product family, region, quarter",
+        "create a sales report by 'product family', 'region', 'quarter' for last 4 years"
+      ]
+    },
+    {
+      "cmd": "CREATE - PRODUCTION REPORT || DIMENSIONS - ['product family', 'region', 'quarter'] || FILTER - ['week' > current - 5]",
+      "inp": [
+        "create a production report by product family, region, quarter for last 5 weeks",
+        "Build a production report by product family by region by quarter for last 5 weeks",
+        "production report for last 4 years using product family, region, quarter",
+        "create a production report by 'product family', 'region', 'quarter' for last 5 weeks"
+      ]
+    },
+    {
+      "cmd": "CREATE - DISTRIBUTION REPORT || DIMENSIONS - ['product family', 'region', 'quarter'] || FILTER - ['week' > current - 5]",
+      "inp": [
+        "create a distribution report by testData, , quarter for last 5 weeks",
+        "Build a distribution report by product family by region by quarter for last 5 weeks",
+        "distribution report for last 4 years using product family, region, quarter",
+        "create a distribution report by 'product family', 'region', 'quarter' for last 5 weeks"
       ]
     }
   ]

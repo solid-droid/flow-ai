@@ -2,7 +2,11 @@
 //create report command/////////////
 
 - CREATE - PIVOT
-- CREATE - CHART
+- CREATE - SALES REPORT
+- CREATE - PRODUCTION REPORT
+- CREATE - DISTRIBUTION REPORT
+- CREATE - PROCUREMENT REPORT
+- CREATE - INVENTORY REPORT
 
 //add or remove entity command/////////////
 
@@ -14,11 +18,15 @@
 //filtering and formatting commands/////////////
 
 - FILTER - ['testData' > 10 , 'mayday' == 'monday']
-- CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']
+- FILTER - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']
 
 //-------------------------------------------------------------------------------------
 //Summary Commands--------------------------------------------------------------------
-
 - MEAN - 'testData'
+- TOTAL - 'testData'
+- RISK 
+- RESOLUTION
 
 
+//special commands
+THIS REPORT
