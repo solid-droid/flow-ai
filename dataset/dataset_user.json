@@ -1,6 +1,6 @@
 [
     {
-      "cmd": "CREATE - PIVOT",
+      "cmd": "#CREATE => PIVOT",
       "inp": [
         "Add pivot",
         "Create Pivot",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "cmd": "CREATE - SALES REPORT",
+      "cmd": "#CREATE => SALES REPORT",
       "inp": [
         "Add SALES REPORT",
         "Create sales REPORT",
@@ -23,22 +23,22 @@
       ]
     },
     {
-      "cmd": "DIMENSIONS - ['testData' , 'week']",
+      "cmd": "#DIMENSIONS => ['testData' , 'week']",
       "inp": [
         "Add attributes 'testData' and 'week' ",
         "Add dimensions 'testData' and 'week' ",
-        "use dimensions 'testData' and 'week'",
+        "use dimensions testData and week",
         "add 'testData' and 'week' as dimensions",
         "add members 'testData' and 'week'"
       ]
     },
     {
-      "cmd": "MEASURES - ['testData' , 'week']",
+      "cmd": "#MEASURES => ['testData' , 'week']",
       "inp": [
         "Add measures 'testData' and 'week' ",
         "'testData' and 'week' are the measures i want",
         "create measures 'testData' and 'week'",
-        "add measure 'testData' and measure 'week'",
+        "add measure testData and measure week",
         "Measures - 'testData' , 'week' ",
         "Add measures 'testData' and 'week'",
         "add 'testData' and 'week' as measures",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "cmd": "MEASURES - ['testData' , 'week', 'mayday']",
+      "cmd": "#MEASURES => ['testData' , 'week', 'mayday']",
       "inp": [
         "Add measures 'testData', 'week' and 'mayday' ",
         "'testData', 'week' and 'mayday' are the measures i want",
@@ -58,16 +58,16 @@
       ]
     },
     {
-      "cmd": "REMOVE - ['testData' , 'week', 'mayday']",
+      "cmd": "#REMOVE => ['testData' , 'week', 'mayday']",
       "inp": [
         "remove measures 'testData', 'week' and 'mayday' ",
         "'testData', 'week' and 'mayday' are the measures i want to delete",
         "delete measures 'testData' and 'week' and 'mayday'",
         "clear measure 'testData' and measure 'week' and measure 'mayday'",
         "Remove Measures - 'testData' , 'week' , 'mayday' ",
-        "hide measures 'testData' and 'week' and 'mayday' ",
+        "hide measures testData and week and 'mayday' ",
         "dont show measures 'testData' and 'week' and 'mayday'",
-        "remove attributes 'testData' and 'week' and 'mayday'",
+        "remove attributes testData and week and mayday",
         "delete dimensions 'testData' , 'week' and 'mayday' ",
         "dont use dimensions 'testData' and 'week'and 'mayday'",
         "hide dimensions 'testData' and 'week' and 'mayday'",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "cmd": "FILTER - ['testData' > 10 , 'mayday' == 'monday']",
+      "cmd": "#FILTER => ['testData' > 10 AND 'mayday' == 'monday']",
       "inp": [
         "show values where 'testData' > 10 and 'mayday' == 'monday'",
         "show values where 'testData' > 10 and 'mayday' equals 'monday'",
@@ -84,28 +84,28 @@
       ]
     },
     {
-      "cmd": "FILTER - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red'] ",
+      "cmd": "#FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['red'] ",
       "inp": [
         "show values 'testData' > 10 and 'mayday' == 'monday' in red color",
-        "show values where 'testData' > 10 and 'mayday' equals 'monday' in red color",
-        "show values where 'testData' > 10 and 'mayday' is 'monday' in red color"
+        "show values where testData > 10 and mayday equals 'monday' in red color",
+        "show values where 'testData' > 10 and 'mayday' is monday in red color"
       ]
     },
     {
-      "cmd": "FILTER - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['blue'] ",
+      "cmd": "#FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['blue'] ",
       "inp": [
         "show values 'testData' > 10 and 'mayday' == 'monday' in blue",
-        "show values where 'testData' > 10 and 'mayday' equals 'monday' in blue color",
+        "show values where testData > 10 and 'mayday' equals 'monday' in blue color",
         "show values where 'testData' > 10 and 'mayday' is 'monday' in blue background"
       ]
     },
     {
-      "cmd": "CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value']",
+      "cmd": "#CREATE => PIVOT || #DIMENSIONS => ['market' , 'week'] || #MEASURES => ['testData' , 'register Value']",
       "inp": [
         "Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week' ",
-        "Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value' ",
-        "Create a pivot and add attributes 'market' and 'week' and add measures 'testData' and 'register Value' ",
-        "Create a pivot with attributes 'market' and 'week' and measures 'testData' and 'register Value' ",
+        "Create a pivot and add dimensions market and week and add measures 'testData' and 'register Value' ",
+        "Create a pivot and add attributes 'market' and 'week' and add measures testData and 'register Value' ",
+        "Create a pivot with attributes market and week and measures testData and register Value ",
         "Create a pivot with measures 'testData' and 'register Value' and dimensions 'market' and 'week' ",
         "Make a pivot with measures 'testData' and 'register Value' and dimensions 'market' and 'week' ",
         "Make a pivot with measures - 'testData', 'register Value' and attributes 'market', 'week'",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "cmd": "CREATE - PIVOT || MEASURES - ['testData' , 'week']",
+      "cmd": "#CREATE => PIVOT || #MEASURES => ['testData' , 'week']",
       "inp": [
         "Create a pivot and add measures 'testData' and 'week' ",
         "Create a pivot with measures 'testData' and 'week' ",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "cmd": "CREATE - SALES REPORT || DIMENSIONS - ['product family', 'region', 'quarter'] || FILTER - ['year' > current - 4]",
+      "cmd": "#CREATE => SALES REPORT || #DIMENSIONS => ['product family', 'region', 'quarter'] || #FILTER => ['year' > current - 4]",
       "inp": [
         "create a sales report by product family, region, quarter for last 4 years",
         "Build a sales report by product family by region by quarter for last 4 years",
@@ -131,21 +131,162 @@
       ]
     },
     {
-      "cmd": "CREATE - PRODUCTION REPORT || DIMENSIONS - ['product family', 'region', 'quarter'] || FILTER - ['week' > current - 5]",
+      "cmd": "#CREATE => PRODUCTION REPORT || #DIMENSIONS => ['product family', 'region', 'quarter'] || #FILTER => ['week' > current - 5]",
       "inp": [
         "create a production report by product family, region, quarter for last 5 weeks",
         "Build a production report by product family by region by quarter for last 5 weeks",
-        "production report for last 4 years using product family, region, quarter",
+        "production report for last 4 weeks using product family, region, quarter",
         "create a production report by 'product family', 'region', 'quarter' for last 5 weeks"
       ]
     },
     {
-      "cmd": "CREATE - DISTRIBUTION REPORT || DIMENSIONS - ['product family', 'region', 'quarter'] || FILTER - ['week' > current - 5]",
+      "cmd": "#CREATE =>  DISTRIBUTION REPORT || #DIMENSIONS => ['testData', 'gogo', 'hello'] || #FILTER => ['quarter' > current - 1]",
       "inp": [
-        "create a distribution report by testData, , quarter for last 5 weeks",
-        "Build a distribution report by product family by region by quarter for last 5 weeks",
-        "distribution report for last 4 years using product family, region, quarter",
-        "create a distribution report by 'product family', 'region', 'quarter' for last 5 weeks"
+        "create a distribution report by testData, gogo , hello for last quarter",
+        "Build a distribution report by testData by gogo by hello for last quarter",
+        "distribution report for previous quarter using testData, gogo, hello",
+        "create a distribution report by 'testData', 'gogo', 'hello' for last quarter"
+      ]
+    },
+    {
+      "cmd": "#CREATE =>  DISTRIBUTION REPORT || #DIMENSIONS => ['testData', 'gogo', 'hello'] || #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ]",
+      "inp": [
+        "create a distribution report by testData, gogo , hello for last quarter and 'gogo' is 'hello' or 'world'",
+        "Build a distribution report by testData by gogo by hello for last quarter and gogo is hello or world",
+        "distribution report for previous quarter using testData, gogo, hello and filter by 'gogo' matching 'hello' or 'world'",
+        "create a distribution report by 'testData', 'gogo', 'hello' for last quarter and 'gogo' = 'hello' or gogo = 'world'"
+      ]
+    },
+    {
+      "cmd": "#CALCULATED => ['testData' + 10] => #NAME =>  'newMSR'",
+      "inp":[
+        "add a measure called 'newMSR' whose value is 10 more than 'testData'",
+        "create a measure called 'newMSR' whose value is 10 more than testData",
+        "add a calculated measure newMSR whose value is 10 + 'testData'",
+        "add a calculated measure 'newMSR' whose value is 10 + testData",
+        "newMSR = testData + 10"
+      ]
+    },
+    {
+      "cmd": "#CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  ''",
+      "inp":[
+        "add a measure whose value is sum of 'helloWorld' && 'gogo' ",
+        "add 'helloworld' and gogo to create a new measure",
+        "add a calculated measure whose value is 'gogo' + 'helloWorld'",
+        "gogo + helloworld"
+      ]
+    },
+    {
+      "cmd": "#CREATE => PIVOT || #MEASURES => ['testData' , 'msr'] || #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta'",
+      "inp":[
+        "create a pivot and add measures 'testData' and 'msr' and create a new measure called delta which is the difference of testData and msr",
+        "Create a new pivot with measures testData, msr and delta, where delta is testData - msr",
+        "create a new report with measures 'testData' , msr and a calculated measure called 'delta' whose value is delta of testData and msr",
+        "create a new report with measures 'testData' , msr and delta = testData - msr"
+      ]
+    },
+    {
+      "cmd":"#MEAN => []" ,
+      "inp":[
+        "find the mean of all columns",
+        "mean of the table",
+        "summarize the table by finding mean",
+        "what is the average of the table"
+      ]
+    },
+    {
+      "cmd":"#MEAN => ['msr']",
+      "inp":[
+        "find the mean for column msr",
+        "what is the average of measure msr",
+        "average of msr"
+      ]
+    },
+    {
+      "cmd":"#MEAN => ['msr', 'dtr']" ,
+      "inp":[
+        "find mean of columns msr and dtr",
+        "what is the average of columns 'msr' and 'dtr'"
+      ]
+    },
+    {
+      "cmd":"#SUM => []" ,
+      "inp":[
+        "sum of the table",
+        "total of the report",
+        "find sum of all the columns",
+        "summarize the table by finding the sum of all the columns in table"
+      ]
+    },
+    {
+      "cmd":"#SUM => ['lolo']" ,
+      "inp":[
+        "Find sum of column lolo",
+        "What is the total of measure lolo",
+        "find sum of 'lolo'"
+      ]
+    },
+    {
+      "cmd":"#SUM => ['lolo' , 'hello']",
+      "inp":[
+        "find sum of columns lolo and hello",
+        "summarize by finding sum of columns  'lolo' and 'hello'",
+        "what are the total for columns 'lolo' and 'hello'"
+      ]
+    },
+    {
+      "cmd":"#RISK => []" ,
+      "inp":[
+        "what are the risk associated to this report",
+        "what are the risks",
+        "Do you see any risk",
+        "is there any problem",
+        "did u detect any issue"
+      ]
+    },
+    {
+      "cmd":"#RISK => ['SALES REPORT']" ,
+      "inp":[
+        "What are the risks associated to sales report",
+        "do you see any risk in sales report",
+        "can u tell me the risks in sales report",
+        "is there a risk analysis report associated to sales report"
+      ]
+    },
+    {
+      "cmd":"#RISK => ['SALES REPORT', 'PRODUCTION REPORT']" ,
+      "inp":[
+        "What are the risks associated to sales report and produciton report",
+        "do you see any risk in sales report and production report",
+        "can u tell me the risks in sales report and production report",
+        "get me the risk related reports for sales report and production report"
+      ]
+    },
+    {
+      "cmd":"#RESOLUTION => ['SALES REPORT']",
+      "inp":[
+        "do you see resolutions for the risks in sales report",
+        "can you tell how to fix the issues in sales report",
+        "how can i fix the risks in sales report",
+        "resolution report for sales report"
+      ]
+    },
+    {
+      "cmd":"#RESOLUTION => []",
+      "inp":[
+        "do you see any resolutions",
+        "can you fix these risks",
+        "is there any resolution available to fix these",
+        "can you show me resolution report for this"
+      ]
+    },
+    {
+      "cmd":"#RISK => ['SALES REPORT'] || #FILTER => ['quarter' > current - 1]" ,
+      "inp":[
+        "What are the risks associated to sales report for the past quarter",
+        "do you see any risk in sales report for the past quarter",
+        "can u tell me the risks in past quarter sales report",
+        "is there a risk analysis report associated to sales report of last quarter"
       ]
     }
   ]
