@@ -247,45 +247,6 @@ Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', '
 Question: create a distribution report by 'testData', 'gogo', 'hello' for last quarter and 'gogo' = 'hello' or gogo = 'world' 
 Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
 
-Question: add a measure called 'newMSR' whose value is 10 more than 'testData' 
-Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
-
-Question: create a measure called 'newMSR' whose value is 10 more than testData 
-Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
-
-Question: add a calculated measure newMSR whose value is 10 + 'testData' 
-Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
-
-Question: add a calculated measure 'newMSR' whose value is 10 + testData 
-Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
-
-Question: newMSR = testData + 10 
-Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
-
-Question: add a measure whose value is sum of 'helloWorld' && 'gogo'  
-Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
-
-Question: add 'helloworld' and gogo to create a new measure 
-Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
-
-Question: add a calculated measure whose value is 'gogo' + 'helloWorld' 
-Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
-
-Question: gogo + helloworld 
-Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
-
-Question: create a pivot and add measures 'testData' and 'msr' and create a new measure called delta which is the difference of testData and msr 
-Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
-
-Question: Create a new pivot with measures testData, msr and delta, where delta is testData - msr 
-Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
-
-Question: create a new report with measures 'testData' , msr and a calculated measure called 'delta' whose value is delta of testData and msr 
-Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
-
-Question: create a new report with measures 'testData' , msr and delta = testData - msr 
-Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
-
 Question: find the mean of all columns 
 Answer: #MEAN => [] 
 

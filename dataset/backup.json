@@ -158,6 +158,34 @@
       ]
     },
     {
+      "cmd": "#CALCULATED => ['testData' + 10] => #NAME =>  'newMSR'",
+      "inp":[
+        "add a measure called 'newMSR' whose value is 10 more than 'testData'",
+        "create a measure called 'newMSR' whose value is 10 more than testData",
+        "add a calculated measure newMSR whose value is 10 + 'testData'",
+        "add a calculated measure 'newMSR' whose value is 10 + testData",
+        "newMSR = testData + 10"
+      ]
+    },
+    {
+      "cmd": "#CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  ''",
+      "inp":[
+        "add a measure whose value is sum of 'helloWorld' && 'gogo' ",
+        "add 'helloworld' and gogo to create a new measure",
+        "add a calculated measure whose value is 'gogo' + 'helloWorld'",
+        "gogo + helloworld"
+      ]
+    },
+    {
+      "cmd": "#CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta'",
+      "inp":[
+        "create a pivot and add measures 'testData' and 'msr' and create a new measure called delta which is the difference of testData and msr",
+        "Create a new pivot with measures testData, msr and delta, where delta is testData - msr",
+        "create a new report with measures 'testData' , msr and a calculated measure called 'delta' whose value is delta of testData and msr",
+        "create a new report with measures 'testData' , msr and delta = testData - msr"
+      ]
+    },
+    {
       "cmd":"#MEAN => []" ,
       "inp":[
         "find the mean of all columns",
