@@ -1,120 +1,420 @@
 Question: Add pivot 
-Answer: CREATE - PIVOT 
+Answer: #CREATE => PIVOT 
 
 Question: Create Pivot 
-Answer: CREATE - PIVOT 
+Answer: #CREATE => PIVOT 
 
 Question: Create a Grid 
-Answer: CREATE - PIVOT 
+Answer: #CREATE => PIVOT 
 
-Question: make grid 
-Answer: CREATE - PIVOT 
+Question: build Grid 
+Answer: #CREATE => PIVOT 
+
+Question: build a report 
+Answer: #CREATE => PIVOT 
+
+Question: please create a report 
+Answer: #CREATE => PIVOT 
+
+Question: create report 
+Answer: #CREATE => PIVOT 
 
 Question: make report 
-Answer: CREATE - PIVOT 
+Answer: #CREATE => PIVOT 
+
+Question: Add SALES REPORT 
+Answer: #CREATE => SALES REPORT 
+
+Question: Create sales REPORT 
+Answer: #CREATE => SALES REPORT 
+
+Question: Create a report on sales 
+Answer: #CREATE => SALES REPORT 
+
+Question: Build a sales report 
+Answer: #CREATE => SALES REPORT 
+
+Question: Make a sales report 
+Answer: #CREATE => SALES REPORT 
 
 Question: Add attributes 'testData' and 'week'  
-Answer: DIMENSIONS - ['testData' , 'week'] 
+Answer: #DIMENSIONS => ['testData' , 'week'] 
 
 Question: Add dimensions 'testData' and 'week'  
-Answer: DIMENSIONS - ['testData' , 'week'] 
+Answer: #DIMENSIONS => ['testData' , 'week'] 
 
-Question: use dimensions 'testData' and 'week' 
-Answer: DIMENSIONS - ['testData' , 'week'] 
+Question: use dimensions testData and week 
+Answer: #DIMENSIONS => ['testData' , 'week'] 
 
 Question: add 'testData' and 'week' as dimensions 
-Answer: DIMENSIONS - ['testData' , 'week'] 
+Answer: #DIMENSIONS => ['testData' , 'week'] 
 
 Question: add members 'testData' and 'week' 
-Answer: DIMENSIONS - ['testData' , 'week'] 
+Answer: #DIMENSIONS => ['testData' , 'week'] 
 
 Question: Add measures 'testData' and 'week'  
-Answer: MEASURES - ['testData' , 'week'] 
+Answer: #MEASURES => ['testData' , 'week'] 
 
 Question: 'testData' and 'week' are the measures i want 
-Answer: MEASURES - ['testData' , 'week'] 
+Answer: #MEASURES => ['testData' , 'week'] 
 
 Question: create measures 'testData' and 'week' 
-Answer: MEASURES - ['testData' , 'week'] 
+Answer: #MEASURES => ['testData' , 'week'] 
 
-Question: add measure 'testData' and measure 'week' 
-Answer: MEASURES - ['testData' , 'week'] 
+Question: add measure testData and measure week 
+Answer: #MEASURES => ['testData' , 'week'] 
+
+Question: Measures - 'testData' , 'week'  
+Answer: #MEASURES => ['testData' , 'week'] 
+
+Question: Add measures 'testData' and 'week' 
+Answer: #MEASURES => ['testData' , 'week'] 
+
+Question: add 'testData' and 'week' as measures 
+Answer: #MEASURES => ['testData' , 'week'] 
 
 Question: use measures 'testData' and 'week' 
-Answer: MEASURES - ['testData' , 'week'] 
+Answer: #MEASURES => ['testData' , 'week'] 
 
 Question: Add measures 'testData', 'week' and 'mayday'  
-Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
 
 Question: 'testData', 'week' and 'mayday' are the measures i want 
-Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
 
 Question: create measures 'testData' and 'week' and 'mayday' 
-Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
 
 Question: add measure 'testData' and measure 'week' and measure 'mayday' 
-Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
+
+Question: Measures - 'testData' , 'week' , 'mayday'  
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
+
+Question: Add measures 'testData' and 'week' and 'mayday'  
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
 
 Question: use measures 'testData' and 'week' and 'mayday' 
-Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+Answer: #MEASURES => ['testData' , 'week', 'mayday'] 
 
 Question: remove measures 'testData', 'week' and 'mayday'  
-Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: 'testData', 'week' and 'mayday' are the measures i want to delete 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: delete measures 'testData' and 'week' and 'mayday' 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: clear measure 'testData' and measure 'week' and measure 'mayday' 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
 
 Question: Remove Measures - 'testData' , 'week' , 'mayday'  
-Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
 
-Question: hide measures 'testData' and 'week' and 'mayday'  
-Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+Question: hide measures testData and week and 'mayday'  
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: dont show measures 'testData' and 'week' and 'mayday' 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: remove attributes testData and week and mayday 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: delete dimensions 'testData' , 'week' and 'mayday'  
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
+
+Question: dont use dimensions 'testData' and 'week'and 'mayday' 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
 
 Question: hide dimensions 'testData' and 'week' and 'mayday' 
-Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
 
 Question: 'testData' , 'week' and 'mayday' needs to be removed 
-Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
 
 Question: remove 'testData' and 'week' and 'mayday' 
-Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+Answer: #REMOVE => ['testData' , 'week', 'mayday'] 
 
 Question: show values where 'testData' > 10 and 'mayday' == 'monday' 
-Answer: FILTER - ['testData' > 10 , 'mayday' == 'monday'] 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] 
 
 Question: show values where 'testData' > 10 and 'mayday' equals 'monday' 
-Answer: FILTER - ['testData' > 10 , 'mayday' == 'monday'] 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] 
 
 Question: show values where 'testData' > 10 and 'mayday' is 'monday' 
-Answer: FILTER - ['testData' > 10 , 'mayday' == 'monday'] 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] 
 
 Question: show values 'testData' > 10 and 'mayday' == 'monday' in red color 
-Answer: CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']  
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['red']  
 
-Question: show values where 'testData' > 10 and 'mayday' equals 'monday' in red color 
-Answer: CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']  
+Question: show values where testData > 10 and mayday equals 'monday' in red color 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['red']  
 
-Question: show values where 'testData' > 10 and 'mayday' is 'monday' in red color 
-Answer: CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']  
+Question: show values where 'testData' > 10 and 'mayday' is monday in red color 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['red']  
+
+Question: show values 'testData' > 10 and 'mayday' == 'monday' in blue 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['blue']  
+
+Question: show values where testData > 10 and 'mayday' equals 'monday' in blue color 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['blue']  
+
+Question: show values where 'testData' > 10 and 'mayday' is 'monday' in blue background 
+Answer: #FILTER => ['testData' > 10 AND 'mayday' == 'monday'] => #FORMAT => ['blue']  
 
 Question: Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week'  
-Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
 
-Question: Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value'  
-Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+Question: Create a pivot and add dimensions market and week and add measures 'testData' and 'register Value'  
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
 
-Question: Create a pivot with attributes 'market' and 'week' and measures 'testData' and 'register Value'  
-Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+Question: Create a pivot and add attributes 'market' and 'week' and add measures testData and 'register Value'  
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
+
+Question: Create a pivot with attributes market and week and measures testData and register Value  
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
+
+Question: Create a pivot with measures 'testData' and 'register Value' and dimensions 'market' and 'week'  
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
+
+Question: Make a pivot with measures 'testData' and 'register Value' and dimensions 'market' and 'week'  
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
 
 Question: Make a pivot with measures - 'testData', 'register Value' and attributes 'market', 'week' 
-Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
+
+Question: Make a pivot with measures - 'testData', 'register Value' and dimensions 'market', 'week' 
+Answer: #CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value'] 
 
 Question: Create a pivot and add measures 'testData' and 'week'  
-Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'week'] 
 
 Question: Create a pivot with measures 'testData' and 'week'  
-Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'week'] 
 
 Question: Please create a pivot and add measures 'testData' and 'week'  
-Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'week'] 
 
 Question: Please create a pivot with measures 'testData' and 'week'  
-Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'week'] 
+
+Question: create a sales report by product family, region, quarter for last 4 years 
+Answer: #CREATE => SALES REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['year' > current - 4] 
+
+Question: Build a sales report by product family by region by quarter for last 4 years 
+Answer: #CREATE => SALES REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['year' > current - 4] 
+
+Question: sales report for last 4 years using product family, region, quarter 
+Answer: #CREATE => SALES REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['year' > current - 4] 
+
+Question: create a sales report by 'product family', 'region', 'quarter' for last 4 years 
+Answer: #CREATE => SALES REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['year' > current - 4] 
+
+Question: create a production report by product family, region, quarter for last 5 weeks 
+Answer: #CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['week' > current - 5] 
+
+Question: Build a production report by product family by region by quarter for last 5 weeks 
+Answer: #CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['week' > current - 5] 
+
+Question: production report for last 4 weeks using product family, region, quarter 
+Answer: #CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['week' > current - 5] 
+
+Question: create a production report by 'product family', 'region', 'quarter' for last 5 weeks 
+Answer: #CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['week' > current - 5] 
+
+Question: create a distribution report by testData, gogo , hello for last quarter 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: Build a distribution report by testData by gogo by hello for last quarter 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: distribution report for previous quarter using testData, gogo, hello 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: create a distribution report by 'testData', 'gogo', 'hello' for last quarter 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: create a distribution report by testData, gogo , hello for last quarter and 'gogo' is 'hello' or 'world' 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
+
+Question: Build a distribution report by testData by gogo by hello for last quarter and gogo is hello or world 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
+
+Question: distribution report for previous quarter using testData, gogo, hello and filter by 'gogo' matching 'hello' or 'world' 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
+
+Question: create a distribution report by 'testData', 'gogo', 'hello' for last quarter and 'gogo' = 'hello' or gogo = 'world' 
+Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
+
+Question: add a measure called 'newMSR' whose value is 10 more than 'testData' 
+Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
+
+Question: create a measure called 'newMSR' whose value is 10 more than testData 
+Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
+
+Question: add a calculated measure newMSR whose value is 10 + 'testData' 
+Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
+
+Question: add a calculated measure 'newMSR' whose value is 10 + testData 
+Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
+
+Question: newMSR = testData + 10 
+Answer: #CALCULATED => ['testData' + 10] => #NAME =>  'newMSR' 
+
+Question: add a measure whose value is sum of 'helloWorld' && 'gogo'  
+Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
+
+Question: add 'helloworld' and gogo to create a new measure 
+Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
+
+Question: add a calculated measure whose value is 'gogo' + 'helloWorld' 
+Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
+
+Question: gogo + helloworld 
+Answer: #CALCULATED => ['helloWorld' + 'gogo'] => #NAME =>  '' 
+
+Question: create a pivot and add measures 'testData' and 'msr' and create a new measure called delta which is the difference of testData and msr 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
+
+Question: Create a new pivot with measures testData, msr and delta, where delta is testData - msr 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
+
+Question: create a new report with measures 'testData' , msr and a calculated measure called 'delta' whose value is delta of testData and msr 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
+
+Question: create a new report with measures 'testData' , msr and delta = testData - msr 
+Answer: #CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta' 
+
+Question: find the mean of all columns 
+Answer: #MEAN => [] 
+
+Question: mean of the table 
+Answer: #MEAN => [] 
+
+Question: summarize the table by finding mean 
+Answer: #MEAN => [] 
+
+Question: what is the average of the table 
+Answer: #MEAN => [] 
+
+Question: find the mean for column msr 
+Answer: #MEAN => ['msr'] 
+
+Question: what is the average of measure msr 
+Answer: #MEAN => ['msr'] 
+
+Question: average of msr 
+Answer: #MEAN => ['msr'] 
+
+Question: find mean of columns msr and dtr 
+Answer: #MEAN => ['msr', 'dtr'] 
+
+Question: what is the average of columns 'msr' and 'dtr' 
+Answer: #MEAN => ['msr', 'dtr'] 
+
+Question: sum of the table 
+Answer: #SUM => [] 
+
+Question: total of the report 
+Answer: #SUM => [] 
+
+Question: find sum of all the columns 
+Answer: #SUM => [] 
+
+Question: summarize the table by finding the sum of all the columns in table 
+Answer: #SUM => [] 
+
+Question: Find sum of column lolo 
+Answer: #SUM => ['lolo'] 
+
+Question: What is the total of measure lolo 
+Answer: #SUM => ['lolo'] 
+
+Question: find sum of 'lolo' 
+Answer: #SUM => ['lolo'] 
+
+Question: find sum of columns lolo and hello 
+Answer: #SUM => ['lolo' , 'hello'] 
+
+Question: summarize by finding sum of columns  'lolo' and 'hello' 
+Answer: #SUM => ['lolo' , 'hello'] 
+
+Question: what are the total for columns 'lolo' and 'hello' 
+Answer: #SUM => ['lolo' , 'hello'] 
+
+Question: what are the risk associated to this report 
+Answer: #RISK => [] 
+
+Question: what are the risks 
+Answer: #RISK => [] 
+
+Question: Do you see any risk 
+Answer: #RISK => [] 
+
+Question: is there any problem 
+Answer: #RISK => [] 
+
+Question: did u detect any issue 
+Answer: #RISK => [] 
+
+Question: What are the risks associated to sales report 
+Answer: #RISK => ['SALES REPORT'] 
+
+Question: do you see any risk in sales report 
+Answer: #RISK => ['SALES REPORT'] 
+
+Question: can u tell me the risks in sales report 
+Answer: #RISK => ['SALES REPORT'] 
+
+Question: is there a risk analysis report associated to sales report 
+Answer: #RISK => ['SALES REPORT'] 
+
+Question: What are the risks associated to sales report and produciton report 
+Answer: #RISK => ['SALES REPORT', 'PRODUCTION REPORT'] 
+
+Question: do you see any risk in sales report and production report 
+Answer: #RISK => ['SALES REPORT', 'PRODUCTION REPORT'] 
+
+Question: can u tell me the risks in sales report and production report 
+Answer: #RISK => ['SALES REPORT', 'PRODUCTION REPORT'] 
+
+Question: get me the risk related reports for sales report and production report 
+Answer: #RISK => ['SALES REPORT', 'PRODUCTION REPORT'] 
+
+Question: do you see resolutions for the risks in sales report 
+Answer: #RESOLUTION => ['SALES REPORT'] 
+
+Question: can you tell how to fix the issues in sales report 
+Answer: #RESOLUTION => ['SALES REPORT'] 
+
+Question: how can i fix the risks in sales report 
+Answer: #RESOLUTION => ['SALES REPORT'] 
+
+Question: resolution report for sales report 
+Answer: #RESOLUTION => ['SALES REPORT'] 
+
+Question: do you see any resolutions 
+Answer: #RESOLUTION => [] 
+
+Question: can you fix these risks 
+Answer: #RESOLUTION => [] 
+
+Question: is there any resolution available to fix these 
+Answer: #RESOLUTION => [] 
+
+Question: can you show me resolution report for this 
+Answer: #RESOLUTION => [] 
+
+Question: What are the risks associated to sales report for the past quarter 
+Answer: #RISK => ['SALES REPORT'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: do you see any risk in sales report for the past quarter 
+Answer: #RISK => ['SALES REPORT'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: can u tell me the risks in past quarter sales report 
+Answer: #RISK => ['SALES REPORT'] ## #FILTER => ['quarter' > current - 1] 
+
+Question: is there a risk analysis report associated to sales report of last quarter 
+Answer: #RISK => ['SALES REPORT'] ## #FILTER => ['quarter' > current - 1] 
 

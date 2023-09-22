@@ -100,7 +100,7 @@
       ]
     },
     {
-      "cmd": "#CREATE => PIVOT || #DIMENSIONS => ['market' , 'week'] || #MEASURES => ['testData' , 'register Value']",
+      "cmd": "#CREATE => PIVOT ## #DIMENSIONS => ['market' , 'week'] ## #MEASURES => ['testData' , 'register Value']",
       "inp": [
         "Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week' ",
         "Create a pivot and add dimensions market and week and add measures 'testData' and 'register Value' ",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "cmd": "#CREATE => PIVOT || #MEASURES => ['testData' , 'week']",
+      "cmd": "#CREATE => PIVOT ## #MEASURES => ['testData' , 'week']",
       "inp": [
         "Create a pivot and add measures 'testData' and 'week' ",
         "Create a pivot with measures 'testData' and 'week' ",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "cmd": "#CREATE => SALES REPORT || #DIMENSIONS => ['product family', 'region', 'quarter'] || #FILTER => ['year' > current - 4]",
+      "cmd": "#CREATE => SALES REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['year' > current - 4]",
       "inp": [
         "create a sales report by product family, region, quarter for last 4 years",
         "Build a sales report by product family by region by quarter for last 4 years",
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "cmd": "#CREATE => PRODUCTION REPORT || #DIMENSIONS => ['product family', 'region', 'quarter'] || #FILTER => ['week' > current - 5]",
+      "cmd": "#CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['week' > current - 5]",
       "inp": [
         "create a production report by product family, region, quarter for last 5 weeks",
         "Build a production report by product family by region by quarter for last 5 weeks",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "cmd": "#CREATE =>  DISTRIBUTION REPORT || #DIMENSIONS => ['testData', 'gogo', 'hello'] || #FILTER => ['quarter' > current - 1]",
+      "cmd": "#CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1]",
       "inp": [
         "create a distribution report by testData, gogo , hello for last quarter",
         "Build a distribution report by testData by gogo by hello for last quarter",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "cmd": "#CREATE =>  DISTRIBUTION REPORT || #DIMENSIONS => ['testData', 'gogo', 'hello'] || #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ]",
+      "cmd": "#CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ]",
       "inp": [
         "create a distribution report by testData, gogo , hello for last quarter and 'gogo' is 'hello' or 'world'",
         "Build a distribution report by testData by gogo by hello for last quarter and gogo is hello or world",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "cmd": "#CREATE => PIVOT || #MEASURES => ['testData' , 'msr'] || #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta'",
+      "cmd": "#CREATE => PIVOT ## #MEASURES => ['testData' , 'msr'] ## #CALCULATED => ['testData' - 'msr'] => #NAME =>  'delta'",
       "inp":[
         "create a pivot and add measures 'testData' and 'msr' and create a new measure called delta which is the difference of testData and msr",
         "Create a new pivot with measures testData, msr and delta, where delta is testData - msr",
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "cmd":"#RISK => ['SALES REPORT'] || #FILTER => ['quarter' > current - 1]" ,
+      "cmd":"#RISK => ['SALES REPORT'] ## #FILTER => ['quarter' > current - 1]" ,
       "inp":[
         "What are the risks associated to sales report for the past quarter",
         "do you see any risk in sales report for the past quarter",

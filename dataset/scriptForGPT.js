@@ -1,5 +1,5 @@
 const fs = require('fs');
-let rawdata = fs.readFileSync('dataset_user_min.json');
+let rawdata = fs.readFileSync('dataset_user.json');
 let raw_datset = JSON.parse(rawdata);
 const output_file = '../server_gptBased/context_data/dataset.txt';
 
