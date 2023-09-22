@@ -1,0 +1,120 @@
+Question: Add pivot 
+Answer: CREATE - PIVOT 
+
+Question: Create Pivot 
+Answer: CREATE - PIVOT 
+
+Question: Create a Grid 
+Answer: CREATE - PIVOT 
+
+Question: make grid 
+Answer: CREATE - PIVOT 
+
+Question: make report 
+Answer: CREATE - PIVOT 
+
+Question: Add attributes 'testData' and 'week'  
+Answer: DIMENSIONS - ['testData' , 'week'] 
+
+Question: Add dimensions 'testData' and 'week'  
+Answer: DIMENSIONS - ['testData' , 'week'] 
+
+Question: use dimensions 'testData' and 'week' 
+Answer: DIMENSIONS - ['testData' , 'week'] 
+
+Question: add 'testData' and 'week' as dimensions 
+Answer: DIMENSIONS - ['testData' , 'week'] 
+
+Question: add members 'testData' and 'week' 
+Answer: DIMENSIONS - ['testData' , 'week'] 
+
+Question: Add measures 'testData' and 'week'  
+Answer: MEASURES - ['testData' , 'week'] 
+
+Question: 'testData' and 'week' are the measures i want 
+Answer: MEASURES - ['testData' , 'week'] 
+
+Question: create measures 'testData' and 'week' 
+Answer: MEASURES - ['testData' , 'week'] 
+
+Question: add measure 'testData' and measure 'week' 
+Answer: MEASURES - ['testData' , 'week'] 
+
+Question: use measures 'testData' and 'week' 
+Answer: MEASURES - ['testData' , 'week'] 
+
+Question: Add measures 'testData', 'week' and 'mayday'  
+Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+
+Question: 'testData', 'week' and 'mayday' are the measures i want 
+Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+
+Question: create measures 'testData' and 'week' and 'mayday' 
+Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+
+Question: add measure 'testData' and measure 'week' and measure 'mayday' 
+Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+
+Question: use measures 'testData' and 'week' and 'mayday' 
+Answer: MEASURES - ['testData' , 'week', 'mayday'] 
+
+Question: remove measures 'testData', 'week' and 'mayday'  
+Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+
+Question: Remove Measures - 'testData' , 'week' , 'mayday'  
+Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+
+Question: hide measures 'testData' and 'week' and 'mayday'  
+Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+
+Question: hide dimensions 'testData' and 'week' and 'mayday' 
+Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+
+Question: 'testData' , 'week' and 'mayday' needs to be removed 
+Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+
+Question: remove 'testData' and 'week' and 'mayday' 
+Answer: REMOVE - ['testData' , 'week', 'mayday'] 
+
+Question: show values where 'testData' > 10 and 'mayday' == 'monday' 
+Answer: FILTER - ['testData' > 10 , 'mayday' == 'monday'] 
+
+Question: show values where 'testData' > 10 and 'mayday' equals 'monday' 
+Answer: FILTER - ['testData' > 10 , 'mayday' == 'monday'] 
+
+Question: show values where 'testData' > 10 and 'mayday' is 'monday' 
+Answer: FILTER - ['testData' > 10 , 'mayday' == 'monday'] 
+
+Question: show values 'testData' > 10 and 'mayday' == 'monday' in red color 
+Answer: CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']  
+
+Question: show values where 'testData' > 10 and 'mayday' equals 'monday' in red color 
+Answer: CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']  
+
+Question: show values where 'testData' > 10 and 'mayday' is 'monday' in red color 
+Answer: CONDITION - ['testData' > 10 , 'mayday' == 'monday'] --FORMAT - ['red']  
+
+Question: Create a pivot and add measures 'testData' and 'register Value' and add dimensions 'market' and 'week'  
+Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+
+Question: Create a pivot and add dimensions 'market' and 'week' and add measures 'testData' and 'register Value'  
+Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+
+Question: Create a pivot with attributes 'market' and 'week' and measures 'testData' and 'register Value'  
+Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+
+Question: Make a pivot with measures - 'testData', 'register Value' and attributes 'market', 'week' 
+Answer: CREATE - PIVOT || DIMENSIONS - ['market' , 'week'] || MEASURES - ['testData' , 'register Value'] 
+
+Question: Create a pivot and add measures 'testData' and 'week'  
+Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+
+Question: Create a pivot with measures 'testData' and 'week'  
+Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+
+Question: Please create a pivot and add measures 'testData' and 'week'  
+Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+
+Question: Please create a pivot with measures 'testData' and 'week'  
+Answer: CREATE - PIVOT || MEASURES - ['testData' , 'week'] 
+
