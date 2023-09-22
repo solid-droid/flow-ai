@@ -223,30 +223,6 @@ Answer: #CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'regio
 Question: create a production report by 'product family', 'region', 'quarter' for last 5 weeks 
 Answer: #CREATE => PRODUCTION REPORT ## #DIMENSIONS => ['product family', 'region', 'quarter'] ## #FILTER => ['week' > current - 5] 
 
-Question: create a distribution report by testData, gogo , hello for last quarter 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
-
-Question: Build a distribution report by testData by gogo by hello for last quarter 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
-
-Question: distribution report for previous quarter using testData, gogo, hello 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
-
-Question: create a distribution report by 'testData', 'gogo', 'hello' for last quarter 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1] 
-
-Question: create a distribution report by testData, gogo , hello for last quarter and 'gogo' is 'hello' or 'world' 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
-
-Question: Build a distribution report by testData by gogo by hello for last quarter and gogo is hello or world 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
-
-Question: distribution report for previous quarter using testData, gogo, hello and filter by 'gogo' matching 'hello' or 'world' 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
-
-Question: create a distribution report by 'testData', 'gogo', 'hello' for last quarter and 'gogo' = 'hello' or gogo = 'world' 
-Answer: #CREATE =>  DISTRIBUTION REPORT ## #DIMENSIONS => ['testData', 'gogo', 'hello'] ## #FILTER => ['quarter' > current - 1 AND 'gogo' == ['hello' , 'World'] ] 
-
 Question: find the mean of all columns 
 Answer: #MEAN => [] 
 
